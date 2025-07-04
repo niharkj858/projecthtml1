@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TabletagandformsDocument</title>
+</head>
+<body>
+<!--TABLE TAG-->
+   <TABLE border="3" cell spacing="0" cellpadding="15" width="600" height="300">
+       <tr bgcolor="blue">             <!--3 COLUMNS IN ROW FIRST-->
+           <th>ID</th>
+           <th>NAME</th>
+           <th>BRANCH</th>
+           <th>GMAIL</th>
+           <th>CONTACT NO</th>
+
+
+       </tr>                           <!--3 COLUMNS IN ROW SECOND-->
+       <tr bgcolor="lime">
+           <td>1</td>
+           <td>Niharika</td>
+           <td>AI</td>
+           <td>niharikajain858@gmail.com</td>
+           <td>7567474788</td>
+
+ 
+      </tr>                             <!--3 COLUMNS IN ROW THIRD-->
+       <tr bgcolor="pink"> 
+           <td>2</td>
+           <td>Rudram</td>
+           <td>CS</td>
+           <td>rudram757@gmail.com</td>
+           <td>85948598979</td>
+
+
+
+       </tr>
+
+       <!--COLSPAN TAG-->
+       <!--to write in full space in column-->
+
+        <tr> 
+           <td colspan="5">thankyou all</td>
+
+
+       </tr>
+
+       <!--ROWSPAN TAG-->
+       <!--to write in full sapce in the row-->
+
+       <table border="2" width="200" height="150" cellspacing="0">  
+        
+        <tr>  
+
+            <th>DAY</th>
+            <th>MEAL</th>
+        </tr>
+        <tr> 
+            <td rowspan="2">monday</td>
+            <td>breakfast</td>
+        </tr>
+
+        <tr>
+            <td>lunch</td>
+        </tr>
+
+        <tr>
+            <td>tuesday</td>
+            <td>brunch</td>
+        </tr>
+
+        </table>
+
+     <!-- SOME ATTRIBUTES FOR TABLE TAG
+       
+        1.Border
+        2.Cell padding
+        3.Cell spacing
+        4.Width
+        5.Height
+        6.Align
+        7.bgcolor
+        8.background-->
+
+
+<!--HTML FORMS AND IFRAME-->
+    <!--GET METHOD AND POST METHOD-->
+    <!--get is less secure than post method-->
+    <!--forms attributes are action-where to send the form data when submitted and method-form data
+    can be setas url variables.-->
+
+
+
+<!--POST METHOD-->
+
+
+    <!--example1-->
+
+    <form action="home.php" method="post">
+    <table>
+        <td>USERNAME</td>                                                
+        <td><input type="text"  placeholder="enter username">   </td> <!--inputbox-->
+        <td>PASSWORD</td>
+        <td><input type="password" placeholder="enter password"> </td> 
+        <td><input type="submit"   value="login"> </td>               <!--buttonbox-->
+        
+    </table>
+
+
+    <!--example2 with more attributes-->
+    
+
+    <form action="" method="post">
+
+    <table>
+        <tr>
+            <td>NAME</td>
+            <td><input type="text"  id="td1" placeholder="enter your name"></td>
+        </tr>
+        <tr>
+            <td>EMAIL ID</td>
+            <td><input type="text" id="td2" placeholder="enter your gmail"></td>
+        </tr>
+        <tr>
+            <td>ADDRESS</td>
+            <td><input type="text" id="td3" placeholder="enter your address"></td>
+        </tr>
+        
+
+    <!--gender button/radio button--> <!--in case of selecting only one option-->
+        <tr>
+            <td>GENDER</td>
+        </tr>
+
+        <tr>
+            <td><input type="radio" name="group1">male </td>
+        </tr>
+
+
+        <tr>
+            <td><input type="radio" name="group1">female</td>
+        </tr>
+        
+
+         <tr>
+            <td><input type="radio" name="group1">other</td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+   
+
+
+
+</body>
+</html>
