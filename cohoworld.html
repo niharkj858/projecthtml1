@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions in css</title>
+
+<style>
+    #container
+    {
+        width:600px;
+        height:600px ;
+        background-color: rgb(206, 100, 100);
+        position: relative;
+        top: 4px;
+       
+    }
+
+    #container #Menubar
+    {
+        width: 600px;
+        height:20px;
+        background-color:rgb(207, 136, 136);
+        position: fixed;
+        top: 1.6cm;
+        left: 20px;
+        
+
+
+    }
+
+    #container #Menubar a
+    {
+        color: aliceblue;
+        padding: 10px 12px;
+        text-transform: capitalize;
+        
+        text-decoration: none;
+    }
+
+    #container #Menubar a:hover
+    {
+        background-color: rgb(255, 76, 106);
+    }
+
+    #container #h1
+
+    {
+        position: relative;
+        
+
+
+    }
+
+    #h2
+
+    {
+
+        width: 900px;
+        height: 120px;
+        background-color:rgb(207, 136, 136);
+        padding-left: 45px;
+        top: 7px;
+        
+        
+
+    }
+    
+    #h3
+    {
+       width: 900px;
+       height: 20px;
+       background-color:rgb(214, 214, 214);
+       
+       top: 20px;
+       
+       
+        
+    }
+
+    #h4
+    {
+
+        
+        text-decoration: none;
+        color: black;
+        padding-left: 200px;
+        font-style: bold;
+        text-shadow: 7px 4px 8px red;
+       
+    }
+    #h4:hover
+    {
+
+        color:rgb(255, 76, 106);
+        width: 2px;
+    }
+
+     #h5
+    {
+
+        
+       width: 900px;
+       height: 20px;
+       background-color:rgb(190, 20, 20);
+       
+       top: 20px;
+       position: sticky;
+       
+       
+        
+       
+    }
+
+    #h6
+    {
+        color: white;
+        text-decoration: none;
+        font-size: small;
+        left: 3px;
+
+
+    }
+
+
+
+
+
+    
+</style>
+</head>
+<body>
+    <div id="container">
+        
+        <div id="Menubar">
+            <a href="">Hopeless Series</a>
+            <a href="">Ugly series</a>
+            <a href="">Maybe series</a>
+            <a href="">Slammed series</a>
+        
+        </div>
+
+    <h1 id="h1">Welcome to the Coho World!</h1>
+    <div id="h2">
+        <img src="hopeless.jpg" width="100px" height="120px">
+         <img src="ugly love.jpg" width="100px" height="120px">
+          <img src="maybe someday.jpg" width="100px" height="120px">
+           <img src="slammed.jpg" width="100px" height="120px">
+    </div>
+
+    <div id="h3">
+        <a href="" id="h4">ORDER NOW</a>
+
+
+    </div>
+
+    
+    <div id="h5">
+        
+   <marquee direction ="right" speed="50"><a href="" id="h6">UNLOCK EXCITING PRIZES AND DISCOUNTS</a></marquee>
+
+
+    </div>
+    
+    </div>
+
+  
+
+    
+    
+</body>
+</html>
