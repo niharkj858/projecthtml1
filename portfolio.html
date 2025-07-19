@@ -3,12 +3,395 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+   
+
+    <style>
+         .p1
+        {
+            
+            margin-top: 10px;
+            overflow: hidden;
+           
+
+        }
+        .p1 a
+        {
+            text-decoration: none;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(26, 4, 68);
+            font-size: small;
+            font-weight: 200px;
+            
+            padding: 11px 11px;
+            display:block; 
+            float: left; 
+        }
+
+        #hire
+        {
+            float: right;
+            /* <!--can also use padding--> */ */
+           margin-right:20px;
+           
+           color: #132781;
+           
+           border-radius: 4px;
+           cursor: pointer;
+        transition: .5s ease;
+       
+        }
+
+        #p2
+        {
+            padding-left: 5.2cm;
+            font-weight: bold;
+            color: #132781;
+
+        }
+
+        #p3
+        {
+            font-size: large;
+            font-weight: bolder;
+        }
+        #service
+        {
+            font-weight: bold;
+            color: #132781;
+        }
+
+        #pro
+        {
+             font-weight: bold;
+                     color: #132781;
+        }
+
+         #contact
+        {
+             font-weight: bold;
+                     color: #132781;
+        }
+
+        .leftcontainer
+        {
+            padding-left: 2cm;
+            align-items: center;
+            padding-top: 2cm;
+            height: 8cm;
+            position: relative;
+          
+            max-width: 70%;
+           
+            
+           
+          
+          
+           
+            
+        }
+
+       #h2
+       {
+        font-size: x-large;
+       }
+
+       #h1
+       {
+        font-size: 45PX;
+        color: #132781;
+       
+       }
+
+       #h4
+       {
+        color: #132781;
+       }
+        
+       #detail
+       {
+        font-size: 16px;
+        max-width: 9cm;
+        font-family: 'Times New Roman', Times, serif;
+       }
+
+       #btn1
+       {
+        background-color: #132781;
+        color: white;
+        font-size: 15px;
+        border: #132781;
+        
+        border-radius: 4px;
+        
+        font-family: 'Times New Roman', Times, serif;
+        width: 2.8cm;
+        cursor: pointer;
+        transition: .5s ease;
+       
+       
+        
+       }
+
+       #btn2
+       {
+        font-size: 15px;
+       
+        border-radius: 4px;
+        color: #132781;
+        font-family: 'Times New Roman', Times, serif;
+        width: 2.8cm;
+        border: none;
+        margin-left: 0.4cm;
+        cursor: pointer;
+        transition: .5s ease;
+       
+       
+       }
+
+       #btn1:hover
+       {
+        
+        font-family: 'Times New Roman', Times, serif;
+        color: #132781;
+        background-color: white;
+       }
+
+       #btn2:hover
+       {
+        color: white;
+         background-color: #132781;
+        
+       }
+
+       
+       
+       #hire:hover
+       {
+        background-color: #132781;
+        color: white;
+       }
+
+       .baddacontainer
+       {
+        display: flex;
+       }
+
+       .rightcontainer
+       {
+        position: relative;
+        
+       }
+
+       .
+       #about
+       {
+        width: 400px;
+        height: 400px;
+        
+        
+       }
+
+       .row
+       {
+        display: flex;
+       }
+
+       #col2
+       {
+        padding-left: 3cm;
+        padding-top: 2cm;
+        color: #132781;
+        padding-left: 1.5cm;
+       }
+
+       #content
+       {
+
+        color: black;
+        padding-right: 2cm;
+        padding-top: .4cm;
+       
+       }
+
+       #hobbies
+       {
+        display: flex;
+        padding-left: 2cm;
+        padding-top: 2cm;
+       }
+
+       #p1
+       {
+        font-weight: bold;
+        
+        color: black;
+       }
+
+       #work
+       {
+        padding-left: 2cm;
+       }
+
+       .worklist
+       {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+        grid-gap: 40px;
+       }
+
+       .work
+       {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+       }
+
+       .work img{
+
+        width:6cm;
+        border-radius: 10px;
+        display: flex;
+       }
+
+
+       .contact-box {
+      background: #ffffff;
+      padding-left: 5cm;
+      border-radius: 15px;
+      
+      width: 6cm;
+      height: 5cm;
+     
+    }
+
+    .contact-box h2 {
+      margin-bottom: 20px;
+      color: #333;
+      text-align: center;
+    }
+
+    .contact-box input,
+    .contact-box textarea {
+      width: 100%;
+      padding-left: 5cm;
+      margin: 10px 0;
+      
+      border-radius: 8px;
+      font-size: 16px;
+      
+    }
+
+    .contact-box button {
+      width: 100%;
+      padding: 12px;
+      background: #4a90e2;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-box button:hover {
+      background: #357ab8;
+    }
+
+
+
+
+
+       
+      
+
+      
+    </style>
 </head>
+
 <body>
+    <div class="p1">
+    <a href="" id="p3">Niharika.</a>
+    <a href="" id="p2">Home</a>
+    <a href="#col2" id="service">About</a>
+    <a href="#hob" id="pro">Hobbies</a>
+    <a href="#yes"  id="contact">Contact</a>
+    <a href="" id="hire">Download CV</a>
+    </div>
 
-    <h1>MY PORTFOLIO PAGE</h1>
+        
+    <div class="baddacontainer">
 
+    <div class="leftcontainer" style="max-width: 50%;" >
+        <h2 id="h2">Hi! I Am <span id="h4">Niharika Jain</span></h2>
+        <h1 id="h1">Creative Writer.</h1>
+        <p id="detail"><span style="color: #132781;">Weaving words into worlds-</span> I'm a creative writer who brings stories to life with imagination, heart, and voice.</p>
+        <button id="btn1">More</button>
+       
+    </div>
+
+ 
+    <div class="right container" >
+        <img src="pinknih.jpg" width="200px" height="700px" style="padding-left: 3cm; padding-right: 2cm; padding-top: 2cm; height: 8cm; width: 7cm; 
+            " >
+        
+    </div>
+</div>
+
+
+<div id="about">
+
+    <div class="abtcontainer">
+        <div class="row">
+            <div class="col1"><img src="niharika1.jpg" style="width: 8cm; height: 7cm; padding-left: 1.5cm; padding-top: 2.7cm;"></div>
+            <div id="col2"><h2>About Me</h2>
+            <p id="content"> 
+                <em style="font-weight: bold;">From a young age, I developed a reputation of sympathizing with the complexity of language-</em> <br> how words can intimately be woven together into a myriad of fruitful fables; how they can just as easily be unraveled into alarmingly beautiful accounts of the human condition.<br><span style="font-style: italic; font-weight: bold;">Follow me through a whirlwind in which i give my heart the reigns and dive deep into the days of imagination.</span>
+            </p>
+        
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<div id="hobbies" style="background-color: ;">
+
+    <div id="hob"><h1>Hobbies</h1>
+
+        <div id="p1"><img src="paint.jpg" style="width: 8cm; height: 6.5cm;"><p><em>Painting is my favorite escape, A quiet world where colors take shape.</em></p></div>
+        <div id="p2"><img src="write.jpg" style="width: 8cm; height: 6.5cm;"> <p><em>Reading takes me to worlds unknown,
+Where every page feels like my own.</em></p></div>
+        <div id="p3"><img src="read.jpg" style="width: 8cm; height: 6.5cm;"><p><em>Writing lets my thoughts take flight,
+I shape my dreams in black and white.</em></p></div>
+    </div>
+</div>
+
+
+<div class="contact-box">
+    <h2 id="yes">Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+   
     
 </body>
 </html>
